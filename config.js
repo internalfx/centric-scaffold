@@ -3,29 +3,19 @@
 export const development = {
   baseURL: 'http://localhost:8000',
   arango: {
-    url: 'http://***REMOVED***:8529',
-    database: 'centric_server_dev',
-    username: '***REMOVED***',
-    password: '***REMOVED***'
+    url: 'http://localhost:8529',
+    database: 'centric_dev'
   },
   sharedServer: {
-    url: 'http://***REMOVED***:8529',
-    database: 'centric_demo',
-    username: '***REMOVED***',
-    password: '***REMOVED***'
+    url: 'http://localhost:8529',
+    database: 'centric_demo'
   },
   localServers: [{
-    url: 'http://***REMOVED***:8529',
-    database: 'newYork',
-    username: '***REMOVED***',
-    password: '***REMOVED***',
-    serverId: 'newYork'
+    url: 'http://localhost:8529',
+    database: 'newYork'
   }, {
-    url: 'http://***REMOVED***:8529',
-    database: 'boston',
-    username: '***REMOVED***',
-    password: '***REMOVED***',
-    serverId: 'boston'
+    url: 'http://localhost:8529',
+    database: 'boston'
   }
   ],
   gmailConfig: {
