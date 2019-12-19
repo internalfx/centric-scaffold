@@ -7,7 +7,8 @@ export const development = {
     database: 'centric_server_dev'
   },
   services: [
-    'testService'
+    'testService',
+    'randomNumberService'
   ]
 }
 
